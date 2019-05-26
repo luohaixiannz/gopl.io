@@ -13,10 +13,9 @@ import (
 )
 
 func main() {
-	var s, sep string
+	var s string
 	for i := 1; i < len(os.Args); i++ {
-		s += sep + os.Args[i]
-		sep = " "
+		s += " " + os.Args[i]
 	}
 	fmt.Println(s)
 }
