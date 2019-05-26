@@ -5,6 +5,7 @@
 
 // Helloworld is our first Go program.
 //!+
+//test
 package main
 
 import "fmt"
