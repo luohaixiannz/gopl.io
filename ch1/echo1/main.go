@@ -4,7 +4,7 @@
 // See page 4.
 //!+
 
-// Echo1 prints its command-line arguments.
+// Echo1 prints its command-line arguments. 
 package main
 
 import (
